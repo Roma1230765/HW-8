@@ -1,0 +1,18 @@
+
+.monday li { color: red; }
+.tuesday li { color: blue; }
+.wednesday li { color: green; }
+.thursday li { color: orange; }
+.friday li { color: purple; }
+
+.schedule-container li:hover { font-weight: bold; }
+
+.schedule-container li:focus { background-color: lightgray; }
+
+.schedule-container li:first-child { font-style: italic; }
+.schedule-container li:last-child { text-decoration: underline; }
+
+.schedule-container li:nth-child(even) { text-transform: uppercase; }
+.schedule-container li:nth-child(odd) { text-transform: lowercase; }
+
+

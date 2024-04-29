@@ -1,0 +1,21 @@
+
+.text-box h3:first-child {
+    color: pink; 
+}
+
+#greycol {
+    color: grey;
+}
+
+.yellow {
+    color: yellow;
+  }
+
+  .text-box > div:nth-child(5) p {
+    color: red;
+  }
+  
+  .text-box > p:nth-child(7) {
+    color: green;
+  }
+  
