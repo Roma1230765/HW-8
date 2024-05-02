@@ -11,11 +11,12 @@
     color: yellow;
   }
 
-  .text-box > div:nth-child(5) p {
+  .text-box > div p {
     color: red;
   }
   
-  .text-box > p:nth-child(7) {
-    color: green;
+
+  .text-box > :nth-last-child(2){
+color: green;
   }
   
