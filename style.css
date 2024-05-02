@@ -5,7 +5,9 @@
 .thursday li { color: orange; }
 .friday li { color: purple; }
 
-.schedule-container li:hover { font-weight: bold; }
+.schedule-container li:nth-child(n):hover {
+    font-weight: bold;
+  }  
 
 .schedule-container li:focus { background-color: lightgray; }
 
