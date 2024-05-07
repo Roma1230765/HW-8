@@ -1,9 +1,10 @@
 
-.monday li { color: red; }
-.tuesday li { color: blue; }
-.wednesday li { color: green; }
-.thursday li { color: orange; }
-.friday li { color: purple; }
+.monday li { color: rgb(255, 208, 0); }
+.tuesday li { color: brown; }
+.wednesday li { color: burlywood; }
+.thursday li { color: pink; }
+.friday li { color: aquamarine; }
+
 
 .schedule-container li:nth-child(n):hover {
     font-weight: bold;
@@ -17,4 +18,22 @@
 .schedule-container li:nth-child(even) { text-transform: uppercase; }
 .schedule-container li:nth-child(odd) { text-transform: lowercase; }
 
+.monday :hover {
+  color: red;
+}
 
+.tuesday :hover {
+  color: blue;
+}
+
+.wednesday :hover {
+  color: green;
+}
+
+.thursday :hover {
+  color: orange;
+}
+
+.friday :hover {
+  color: purple;
+}
